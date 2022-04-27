@@ -1,0 +1,67 @@
+/* .containers{
+    height: 80vh;
+    background-image: url(D:\test_app\public\images\img3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    color: white;
+} */
+.containers{
+    height: 88vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-image: url(D:\test_app\public\images\img3.jpg) ;
+    background-position: center;
+    color: white;
+}
+.containers_content{
+    padding-top: 8rem;
+    /* padding-right: 40rem; */
+    padding-left: 41rem;
+}
+.containers button{
+    margin: 0px 8px;
+    padding: 8px;
+    background: rgb(243, 226, 175);
+    /* border: 2px solid #f80; */
+    font-weight: bold;
+
+}
+@media (max-width:968px){
+    .containers{
+        height: 80vh;
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+        padding-bottom: 10rem;
+        color: white;
+    }
+
+    .containers_content{
+        padding-top: 3rem;
+        padding-left: 7rem;
+    }
+    .containers button{
+        margin: 0px 8px;
+        padding: 8px;
+        background: rgb(243, 226, 175);
+        /* border: 2px solid #f80; */
+        font-weight: bold;
+    
+    }
+
+}
+@media (max-width:1029px){
+    .containers{
+        width: 980px;
+    }
+
+    .containers_content{
+        padding-top: 3rem;
+        
+        padding-left: 30rem;
+    }
+
+}
